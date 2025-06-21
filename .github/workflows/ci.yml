@@ -40,3 +40,6 @@ jobs:
 
       - name: Run static type checker
         run: poetry run mypy .
+
+      - name: Run dead code checker
+        run: poetry run skylos --dry-run .
