@@ -23,7 +23,7 @@ radon = "^6.0.1"
 ruff = "^0.11.13"
 skylos = "^1.2.0"
 sphinx = "^8.2.3"
-sphinx-rtd-theme = "^3.0.1"
+sphinx-rtd-theme = "^3.0.2"
 toml-cli = "^0.7.0"
 
 [tool.ruff.lint]
