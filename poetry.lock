@@ -1221,14 +1221,14 @@ files = [
 
 [[package]]
 name = "skylos"
-version = "1.2.0"
+version = "2.0.0"
 description = "A static analysis tool for Python codebases"
 optional = false
 python-versions = ">=3.9"
 groups = ["dev"]
 files = [
-    {file = "skylos-1.2.0-py3-none-any.whl", hash = "sha256:9ae09b0673cc0921cfc67b0db4ffaf92d35a4e7d936abdc477fceda24edc6a7d"},
-    {file = "skylos-1.2.0.tar.gz", hash = "sha256:6d8238bf66628eaf5613d1fdd6bb1f1a30ea1142b3ad75508b55f9bfb0ca76d3"},
+    {file = "skylos-2.0.0-py3-none-any.whl", hash = "sha256:8679df8e6afdba708107ee50f899354065b0198c8503a61f93516b4ca371dc9e"},
+    {file = "skylos-2.0.0.tar.gz", hash = "sha256:df1a19dcd9b52e4f866cf1f24575d2efd525343422f388bd7a3d6633ddb9d281"},
 ]
 
 [package.dependencies]
@@ -1561,4 +1561,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "d17889f0aec089505929215db214955c0330b40c2438ba0ebb169b81861f1ea5"
+content-hash = "69ad69b8bd1b0ebd7262d4a98e915827b40ab6a5742450358aaeb6dc8ad56f11"
