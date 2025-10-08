@@ -24,7 +24,7 @@ ruff = "^0.14.0"
 skylos = "^1.2.0"
 sphinx = "^8.2.3"
 sphinx-rtd-theme = "^3.0.2"
-toml-cli = "^0.8.1"
+toml-cli = "^0.8.2"
 
 [tool.ruff.lint]
 select = [
