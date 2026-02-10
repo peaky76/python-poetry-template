@@ -1791,8 +1791,8 @@ files = [
 
 [package.dependencies]
 pyyaml = [
-    {version = ">=5.2", markers = "python_version < \"3.13\""},
     {version = ">=6.0.3", markers = "python_version >= \"3.14\""},
+    {version = ">=5.2", markers = "python_version < \"3.13\""},
 ]
 pyyaml-ft = {version = ">=8.0.0", markers = "python_version == \"3.13\""}
 
@@ -2292,7 +2292,7 @@ description = "Python package for creating and manipulating graphs and networks"
 optional = false
 python-versions = ">=3.11"
 groups = ["dev"]
-markers = "python_version >= \"3.14\""
+markers = "python_version >= \"3.13\""
 files = [
     {file = "networkx-3.6-py3-none-any.whl", hash = "sha256:cdb395b105806062473d3be36458d8f1459a4e4b98e236a66c3a48996e07684f"},
     {file = "networkx-3.6.tar.gz", hash = "sha256:285276002ad1f7f7da0f7b42f004bcba70d381e936559166363707fdad3d72ad"},
@@ -2316,7 +2316,7 @@ description = "Python package for creating and manipulating graphs and networks"
 optional = false
 python-versions = "!=3.14.1,>=3.11"
 groups = ["dev"]
-markers = "python_version <= \"3.13\""
+markers = "python_version < \"3.13\""
 files = [
     {file = "networkx-3.6.1-py3-none-any.whl", hash = "sha256:d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762"},
     {file = "networkx-3.6.1.tar.gz", hash = "sha256:26b7c357accc0c8cde558ad486283728b65b6a95d85ee1cd66bafab4c8168509"},
@@ -2612,8 +2612,8 @@ files = [
 annotated-types = ">=0.6.0"
 pydantic-core = "2.23.4"
 typing-extensions = [
-    {version = ">=4.6.1", markers = "python_version < \"3.13\""},
     {version = ">=4.12.2", markers = "python_version >= \"3.13\""},
+    {version = ">=4.6.1", markers = "python_version < \"3.13\""},
 ]
 
 [package.extras]
@@ -2739,14 +2739,14 @@ windows-terminal = ["colorama (>=0.4.6)"]
 
 [[package]]
 name = "pytest"
-version = "9.0.1"
+version = "9.0.2"
 description = "pytest: simple powerful testing with Python"
 optional = false
 python-versions = ">=3.10"
 groups = ["dev"]
 files = [
-    {file = "pytest-9.0.1-py3-none-any.whl", hash = "sha256:67be0030d194df2dfa7b556f2e56fb3c3315bd5c8822c6951162b92b32ce7dad"},
-    {file = "pytest-9.0.1.tar.gz", hash = "sha256:3e9c069ea73583e255c3b21cf46b8d3c56f6e3a1a8f6da94ccb0fcf57b9d73c8"},
+    {file = "pytest-9.0.2-py3-none-any.whl", hash = "sha256:711ffd45bf766d5264d487b917733b453d917afd2b0ad65223959f59089f875b"},
+    {file = "pytest-9.0.2.tar.gz", hash = "sha256:75186651a92bd89611d1d9fc20f0b4345fd827c41ccd5c299a868a05d70edf11"},
 ]
 
 [package.dependencies]
@@ -3348,14 +3348,14 @@ files = [
 
 [[package]]
 name = "skylos"
-version = "3.2.0"
+version = "3.2.5"
 description = "An analysis tool for Python codebases"
 optional = false
 python-versions = ">=3.10"
 groups = ["dev"]
 files = [
-    {file = "skylos-3.2.0-py3-none-any.whl", hash = "sha256:5a5d3c16940ad39ec799f667904de6dafd3069b9b8a660f19502d5954342655c"},
-    {file = "skylos-3.2.0.tar.gz", hash = "sha256:7a0902e96bf54537671b5d81af014dd0eeec3070128e530cdb26791a98287dac"},
+    {file = "skylos-3.2.5-py3-none-any.whl", hash = "sha256:1939ea4cfa91009deeb3de5292ae1711f2110f81dcb4d8a1bd38105678a43600"},
+    {file = "skylos-3.2.5.tar.gz", hash = "sha256:84fd326052fbb8dc5fce72fa07ec8ff4064c86376db1110bda246616f137a0cf"},
 ]
 
 [package.dependencies]
@@ -3366,6 +3366,7 @@ keyring = ">=25.7.0"
 libcst = ">=1.8.2"
 litellm = ">=1.81.3"
 networkx = "*"
+pytest = ">=9.0.2"
 pyyaml = "*"
 requests = "*"
 rich = ">=14.0.0"
@@ -4122,4 +4123,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "c789f42bc35d7c5e1bcf07371877a33d3c0fa75894f058e3b2d32461fd1ad9c9"
+content-hash = "ff7781b0b2418331cd69e85aad9832d95808ae1191fe4a2ea33f740acc0f5c58"
